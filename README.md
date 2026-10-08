@@ -4,7 +4,7 @@ Documented cloud security investigations, built in a live Azure tenant
 (Mad Hat Labs, a multi-user training environment).
 
 Target role: SOC Analyst / Security Analyst
-Currently: Student | St. Louis, MO / Remote]
+Currently: Student | St. Louis, MO / Remote
 Contact: mlr8781@gmail.com · www.linkedin.com/in/marvinlrobinson
 
 ## Investigations
