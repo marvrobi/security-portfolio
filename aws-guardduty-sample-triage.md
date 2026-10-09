@@ -20,5 +20,11 @@ Finding triage, action-outcome interpretation, separating simulated evidence fro
 This did not test detection of a live attack or demonstrate containment. Sample findings cannot be correlated with real attack activity in the account. No EC2 instance was launched for this exercise.
 
 ## Evidence
-Sample screenshots and notes are retained privately and labeled simulated.
+These screenshots document a **SIMULATED GuardDuty sample**, not a live incident. Originals and notes remain in the private lab archive.
+
+![Simulated GuardDuty S3 finding overview](guardduty-sample-overview.png)
+*High-severity sample finding with generated resource and identity placeholders. The account identifier is redacted.*
+
+![Simulated GuardDuty action outcome](guardduty-sample-access-denied.png)
+*The sample action reports AccessDenied and Sample: true. The displayed actor addresses are fictional sample values and are not real threat indicators.*
 

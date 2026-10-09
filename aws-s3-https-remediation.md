@@ -23,5 +23,14 @@ S3 policy analysis, configuration history, audit correlation, remediation, and e
 Block Public Access, encryption at rest, and encryption in transit address different requirements. Passing this rule does not establish complete bucket security. No live HTTP-versus-HTTPS request test was performed. A related CloudFront availability check did not establish a fresh origin retrieval.
 
 ## Evidence
-Before-and-after screenshots and audit evidence are retained privately. Resource identifiers, exact operational timestamps, and configuration payloads are excluded here.
+Selected screenshots are published below. Account-bearing resource identifiers are redacted using solid boxes; originals and audit evidence remain private.
+
+![S3 bucket before remediation](s3-policy-before.png)
+*Before remediation: no bucket policy was present, while Block Public Access was enabled.*
+
+![AWS Config policy comparison](s3-policy-before-after.png)
+*AWS Config captured the change from no policy to an explicit Deny when aws:SecureTransport is false, covering the bucket and its objects.*
+
+![AWS Config compliance after remediation](s3-compliant-result.png)
+*The selected bucket is Compliant with s3-bucket-ssl-requests-only. Other resources remain Noncompliant; this result applies only to this rule.*
 

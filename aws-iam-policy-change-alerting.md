@@ -17,8 +17,14 @@ Observed the initial alarm transition, received the notification, and observed r
 CloudTrail audit review, EventBridge event routing, CloudWatch Logs and alarms, SNS notifications, controlled testing, and cleanup.
 
 ## Limitations
-This demonstrated change monitoring, not malicious-activity classification or least-privilege enforcement. Final alarm recovery after the cleanup alert was not verified in the last evidence.
+This demonstrated change monitoring, not malicious-activity classification or least-privilege enforcement. The published alarm history confirms return to OK after the cleanup alert.
 
 ## Evidence
-Screenshots and validation notes are retained privately. Operational identifiers and unredacted screenshots are excluded from this public write-up.
+Selected screenshots are published below with account-bearing identifiers redacted using solid boxes. Originals and validation notes remain in the private lab archive.
+
+![CloudWatch alarm configuration](iam-alarm-configuration.png)
+*Alarm configuration: Sum threshold of at least 1 within a one-minute period; missing data treated as not breaching. The displayed state is the initial configuration state.*
+
+![CloudWatch alarm validation history](iam-alarm-history.png)
+*History records both alert cycles, successful SNS actions, and return to OK after cleanup.*
 

@@ -22,5 +22,11 @@ Snapshot recovery, service validation, monitoring, private origin access, encryp
 This demonstrated manual recovery, not automatic multi-Availability-Zone failover or zero downtime. Recovery planning targets were not measured guarantees. A cache hit does not establish a fresh origin retrieval. The WordPress and static-content exercises were separate components.
 
 ## Evidence
-Screenshots and architecture notes are retained privately. Public server addresses and operational identifiers are excluded here.
+Selected evidence from the separate static-content exercise is published below; originals and architecture notes remain private.
+
+![Project 2 static-content page](project2-cloudfront-website.png)
+*Rendered Project #2 page. This image establishes visible page content; it does not independently prove HTTPS, a cache hit, or a fresh origin fetch.*
+
+![Project 2 HTTPS rule compliance](project2-s3-compliant.png)
+*The Project #2 S3 bucket is Compliant with s3-bucket-ssl-requests-only. This rule result does not establish complete bucket security or WordPress recovery.*
 
