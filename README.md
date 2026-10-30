@@ -14,6 +14,7 @@ Contact: mlr8781@gmail.com · www.linkedin.com/in/marvinlrobinson
 | 2 | S3 HTTPS Enforcement | Configuration compliance, remediation, audit correlation | [Completed remediation](aws-s3-https-remediation.md) |
 | 3 | GuardDuty S3 Sample Finding Triage | Simulated finding analysis, evidence boundaries | [Completed simulation](aws-guardduty-sample-triage.md) |
 | 4 | WordPress Recovery and Private S3 Delivery | Manual recovery, monitoring, private origin access, HTTPS | [Completed project](aws-wordpress-recovery-security.md) |
+| 5 | Cloud Security & Networking Assessment (Oct 30, 2026) | Read-only S3 protection and VPC routing/DNS investigation | [Completed assessment](aws-cloud-security-networking-assessment-2026-10-30.md) |
 
 ## Hands-on project status
 - **Project #1 — AWS Cloud Portfolio Website:** Completed through AWS Amplify Hosting. An associated S3 lab bucket provided the HTTPS remediation exercise.
