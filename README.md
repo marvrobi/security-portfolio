@@ -20,6 +20,8 @@ Contact: mlr8781@gmail.com · www.linkedin.com/in/marvinlrobinson
 
 | 7 | CloudTrail Resource Explorer AssumeRole Investigation (Nov 3, 2026) | Read-only service-identity audit triage | [Completed investigation](aws-cloudtrail-resource-explorer-assumerole-investigation-2026-11-03.md) |
 
+| 8 | IAM DevOps Agent Least-Privilege Investigation (Nov 4, 2026) | Read-only trust policy, managed/inline permissions and scoping review | [Completed investigation](aws-iam-devops-agent-least-privilege-investigation-2026-11-04.md) |
+
 ## Hands-on project status
 - **Project #1 — AWS Cloud Portfolio Website:** Completed through AWS Amplify Hosting. An associated S3 lab bucket provided the HTTPS remediation exercise.
 - **Project #2 — WordPress / Cloud Infrastructure Lab:** Completed. Demonstrated manual recovery and secure static-content delivery.
