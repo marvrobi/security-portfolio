@@ -24,6 +24,8 @@ Contact: mlr8781@gmail.com · www.linkedin.com/in/marvinlrobinson
 
 | 9 | IAM Policy Evaluation & Broad User Permissions (Nov 5, 2026) | Read-only IAM inventory, broad Allow finding, Organizations check, and policy simulation | [Completed investigation](aws-iam-policy-evaluation-broad-user-permissions-2026-11-05.md) |
 
+| 10 | CloudTrail Cost Explorer Access Denied Investigation (Nov 6, 2026) | Read-only CloudTrail correlation, billing console denial, IAM simulation discrepancy; root cause unresolved | [Completed investigation](aws-cloudtrail-cost-explorer-access-denied-investigation-2026-11-06.md) |
+
 ## Hands-on project status
 - **Project #1 — AWS Cloud Portfolio Website:** Completed through AWS Amplify Hosting. An associated S3 lab bucket provided the HTTPS remediation exercise.
 - **Project #2 — WordPress / Cloud Infrastructure Lab:** Completed. Demonstrated manual recovery and secure static-content delivery.
